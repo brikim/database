@@ -1,0 +1,16 @@
+name: Bluray
+description: Matches Bluray source and not remux. Either h265 or h264.
+tags:
+- Storage
+conditions:
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+tests: []
