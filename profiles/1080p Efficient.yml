@@ -271,6 +271,8 @@ qualities:
   qualities:
   - id: 10
     name: Bluray-1080p
+  - id: 12
+    name: Remux-1080p
 - id: -2
   name: 1080p Efficient WEB-DL
   description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
@@ -279,12 +281,6 @@ qualities:
   qualities:
   - id: 9
     name: WEBDL-1080p
-- id: -3
-  name: 1080p Efficient WEBRip
-  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
-    majority of releases, but there are occasional streaming optimised encodes that
-    should be preferred.
-  qualities:
   - id: 11
     name: WEBRip-1080p
 upgrade_until:
